@@ -3,16 +3,55 @@
 <head>
     <meta charset="UTF-8">
     <title>Обо мне</title>
+    <link rel="stylesheet" href="./style/normalize.css">
+    <link rel="stylesheet" href="./style/style.css">
+    <link rel="stylesheet" href="./style/about.css">
 </head>
 <body>
-<header class="header">
-    <nav class="nav">
-        <ul class="nav__list">
-            <li class="nav__item">Обо мне</li>
-            <li class="nav__item">Калькулятор</li>
+<nav class="nav">
+    <ul class="nav__list list">
+        <li class="nav__item">
+            <a href="#" class="nav__link link">Обо мне</a>
+        </li>
+        <li class="nav__item">
+            <a href="#" class="nav__link link">Калькулятор</a>
+        </li>
+    </ul>
+</nav>
+<h1 class="title">Обо мне</h1>
+<main class="container">
+    <section class="block">
+        <div class="photo-wrapper">
+            <img src="./images/photo.png" alt="" class="photo">
+        </div>
+        <article class="skills">
+            <h3 class="skills">Ключевые навыки</h3>
+            <ul class="skills__list list">
+                <li class="skills__item">JS</li>
+                <li class="skills__item">CSS</li>
+                <li class="skills__item">SCSS</li>
+                <li class="skills__item">REACT</li>
+                <li class="skills__item">REDUX</li>
+                <li class="skills__item">HTML</li>
+                <li class="skills__item">PUG</li>
+            </ul>
+        </article>
+        <article class="about">
+            <h3 class="about__title">О себе</h3>
+            Front-end разработчик, опыт работы более 1 года, люблю программировать
+        </article>
+    </section>
+    <article class="experience">
+        <h3 class="experience__title">Опыт работы</h3>
+        <ul class="experience__list">
+            <li class="experience__item">
+                <b>ноябрь 2017 - апрель 2017: </b> фриланс
+            </li>
+            <li class="experience__item">
+                <b>апрель 2017 - нв: </b> Re-point
+            </li>
         </ul>
-    </nav>
-</header>
-<h1>Обо мне</h1>
+    </article>
+</main>
 </body>
 </html>

@@ -1,0 +1,35 @@
+.container {
+    display: flex;
+    width: 1170px;
+    margin: auto;
+    flex-wrap: wrap;
+}
+
+.photo-wrapper {
+    width: 200px;
+    margin: auto;
+}
+
+.photo {
+    width: 100%;
+    height: auto;
+}
+
+.experience {
+
+}
+
+.skills__list {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.skills__item {
+    margin-right: 5px;
+    padding: 5px 10px;
+    background: lightgray;
+}
+
+.skills__item:last-child {
+    margin-right: 0;
+}

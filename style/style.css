@@ -1,0 +1,33 @@
+.list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.link {
+    text-decoration: none;
+}
+
+.nav {
+    background: gray;
+}
+
+.nav__list {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.nav__link {
+    color: white;
+    padding: 10px 15px;
+    display: block;
+}
+
+.nav__link:hover {
+    background: darkgrey;
+}
+
+.title {
+    width: 1170px;
+    margin: auto;
+}
