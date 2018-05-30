@@ -2,9 +2,35 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>$Title$</title>
+    <title>Калькулятор</title>
+    <link rel="stylesheet" href="./style/normalize.css">
+    <link rel="stylesheet" href="./style/style.css">
+    <link rel="stylesheet" href="./style/calc.css">
 </head>
 <body>
-$END$
+<nav class="nav">
+    <ul class="nav__list list">
+        <li class="nav__item">
+            <a href="index.html" class="nav__link link">Обо мне</a>
+        </li>
+        <li class="nav__item">
+            <a href="calc.html" class="nav__link link">Калькулятор</a>
+        </li>
+    </ul>
+</nav>
+<h1 class="title">Калькулятор</h1>
+<main class="container">
+    <form class="calc-from" id="form">
+        <fieldset class="number fieldset">
+            <label for="number" class="number__label caption">Колличество слагаемых</label>
+            <input type="number" class="number__input input" id="number">
+        </fieldset>
+        <fieldset class="terms fieldset" id="terms">
+            <legend class="terms__legend caption">Слагаемые:</legend>
+        </fieldset>
+        <div class="total">Итоговая сумма: <span id="total"></span></div>
+    </form>
+</main>
+<script src="scripts/script.js"></script>
 </body>
 </html>

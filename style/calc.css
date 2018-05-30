@@ -1,0 +1,29 @@
+.container {
+    width: 200px;
+    margin: auto;
+}
+
+.fieldset {
+    border: none;
+}
+
+.caption {
+    display: block;
+}
+
+.input {
+    display: block;
+    margin-bottom: 10px;
+}
+
+.title {
+    text-align: center;
+}
+
+.terms {
+    display: none;
+}
+
+.terms.active {
+    display: block;
+}
